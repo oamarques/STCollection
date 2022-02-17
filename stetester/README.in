@@ -2,7 +2,7 @@
 % This file describes all macros (key words) implemented in STETESTER,         %
 % and examples on how to use those macros. It can also be used as a            %
 % (simple) input file for the tester, e.g.,                                    %
-% dstetester.x < README.in                 %                                   %
+% dstetester.x < README.in                                                     %
 %*******************************************************************************
 %                                                                              %
 % Updated on 10/22/2020 by Osni Marques (LBNL)                                 %
