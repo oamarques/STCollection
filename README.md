@@ -14,10 +14,11 @@ Difficult cases and cases that expose bugs in LAPACK are continuously added to t
 
 The matrices are stored in the directory DATA, in files with extension dat. In each of these files, the matrix dimension is given in the first row 
 and then (row index, diagonal entry, off-diagonal entry) tuples in the subsequent rows. Each dat file (matrix) has a corresponding file with extension 
-eig (eigenvalue distribution of the matrix) or sv (singular values of the matrices). The eigenvalue distributions are showed in files with extension 
+eig (eigenvalue distribution of the matrix) or sv (singular values of the matrix). The eigenvalue distributions are showed in files with extension 
 jpeg, and also in log scale (negative eigenvalues are represented in magenta.)
 
 **Testing Infrastructure**
 
 The folder stetester contains a set of Fortran subroutines that have been used to test LAPACK's symmetric tridiagonal eigensolvers. See the README and
-the README.in files in that folder for comilation instructions and a description of the functionalities provided by the testing infrastructure.
+the README.in files in that folder for comilation instructions and a description of the functionalities provided by the testing infrastructure. The infrastructure 
+can be also used to generate a variety of matrices (in addition to the ones in the DATA folder).
