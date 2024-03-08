@@ -20,5 +20,5 @@ jpeg, and also in log scale (negative eigenvalues are represented in magenta.)
 **Testing Infrastructure**
 
 The folder stetester contains a set of Fortran subroutines that have been used to test LAPACK's symmetric tridiagonal eigensolvers. See the README and
-the README.in files in that folder for comilation instructions and a description of the functionalities provided by the testing infrastructure. The infrastructure 
+the README.in files in that folder for compilation instructions and a description of the functionalities provided by the testing infrastructure. The infrastructure 
 can be also used to generate a variety of matrices (in addition to the ones in the DATA folder).
